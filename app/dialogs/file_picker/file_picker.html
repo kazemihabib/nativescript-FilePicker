@@ -1,0 +1,21 @@
+<StackLayout backgroundColor="white">
+    <StackLayout id="header">
+        <Label [text]="currentDirectory" ></Label>
+    </StackLayout>
+
+
+
+<ListView  [items]="listOfFilesAndFolders" (itemTap)="onItemTap($event)"  separatorColor="white" rowHeight="60">
+        <template let-item="item" let-i="index" let-odd="odd" let-even="even">
+            <!--I added this GridLayout because If I don't add it the hightligh select of 
+            items will be small because the width of item-name is 80%(this is strange I think
+            one of strange things happen when using FlexboxLayout)-->
+            <GridLayout width="100%">
+                <FlexboxLayout flexDirection="row" width="100%">
+                        <Label id="item-icon" class="mdi" [text]="item.isFile ? '\ue24d' : '\ue2c7'" [isFile]="item.isFile ? true : false" ></Label>
+                        <Label id="item-name" [textWrap]="'true'" [text]='item.name'  ></Label>
+                </FlexboxLayout>
+            </GridLayout>
+        </template>
+</ListView>
+</StackLayout>

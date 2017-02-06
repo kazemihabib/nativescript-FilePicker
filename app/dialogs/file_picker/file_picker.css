@@ -1,0 +1,46 @@
+StackLayout{
+     background-color:white;
+     opacity:.8;
+     height:90%;
+}
+
+ListView{
+    color : black;
+    border-width:0;
+    margin-left:20;
+    margin-right:20;
+}
+
+#item-icon {
+    font-size:38;
+    margin-right:10;
+}
+
+#item-icon[isFile = true]{
+    color:#ffee58;
+}
+
+#item-icon[isFile = false]{
+    color:#26c6da;
+}
+
+#item-name{
+    font-size:25;
+    width:80%;
+}
+
+ListView FlexboxLayout{
+    align-items:center;
+}
+
+#header{
+    background-color:rgb(58,175,133);
+    opacity: 1;
+    height:60;
+    align-items:center;
+    padding-left:25;
+    padding-right:25;
+    color:white;
+    font-size:25;  
+    vertical-align: center;
+}
