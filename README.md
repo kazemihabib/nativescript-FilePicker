@@ -1,6 +1,6 @@
 # nativescript-FilePicker
 FilePicker dialog for nativescript
-
+![Demo](/resources/demo.jpg)
 ###Notes:
 
   Just works with angular-native(nativescrpt-angular2).
@@ -43,3 +43,8 @@ FilePicker dialog for nativescript
 
       to the app.component.html
       
+###License
+![MIT](LICENSE)
+
+
+
