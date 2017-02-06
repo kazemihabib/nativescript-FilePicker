@@ -42,7 +42,9 @@ FilePicker dialog for nativescript
       https://github.com/kazemihabib/nativescript-FilePicker/blob/master/app/app.component.html#L2
 
       to the app.component.html
-      
+6-copy 
+
+     /app/dialogs/ to your app folder
 ###License
 ![MIT](LICENSE)
 
