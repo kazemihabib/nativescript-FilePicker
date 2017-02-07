@@ -11,7 +11,7 @@ FilePicker dialog for nativescript
 
   It's not a plugin yet and you should read below line :).
 
-1-copy to `https://github.com/kazemihabib/nativescript-FilePicker/tree/master/app/fonts` to your `app` foloer
+1-copy `https://github.com/kazemihabib/nativescript-FilePicker/tree/master/app/fonts` to your `app` folder.
 
 2-add this line to your `app.css` https://github.com/kazemihabib/nativescript-FilePicker/blob/master/app/app.css#L15 .
 
